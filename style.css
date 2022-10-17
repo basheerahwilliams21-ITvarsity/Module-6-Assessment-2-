@@ -1,0 +1,400 @@
+/* ************************************************************************* */
+/* Universal styles                                                          */   
+/* ************************************************************************* */
+body{
+    margin:0;
+    padding:0;
+    background-color:white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+    font-weight:600;
+    color:#ffffff;
+    background-image: url('images/home-img-1.jpg');
+    background-size:cover;
+    background-position: right;
+}
+
+p{
+    line-height: 190%;
+}
+
+a{
+    text-decoration:none;
+    color: white;
+}
+
+/* ************************************************************************* */
+/* Menu                                                                      */   
+/* ************************************************************************* */
+
+#menu{
+    background-color: rgb(255, 4, 4);
+    height:100px;
+}
+
+#menu ul{
+    margin: 0;
+    padding:0;
+    list-style-type:none;
+    text-align: center;
+}
+
+#menu li{
+    display: inline-block;
+}
+
+#menu a{
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 100px;
+    color:white;
+    padding: 0 40px;
+    border:none;
+    display:block;
+}
+
+#menu a:hover{
+    background-color: hwb(0 86% 13%);
+}
+
+/* ************************************************************************* */
+/* Header                                                                    */   
+/* ************************************************************************* */
+
+#header{
+    padding: 0;
+    text-align: left;
+}
+
+#header h1{
+    letter-spacing: 0.1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 55px;
+    color:white;
+}
+
+#header h2{
+    letter-spacing: 0.1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    color:white;
+}
+
+#header p{
+    letter-spacing: 0.1em;
+    color: white;
+    font-size: 20px;
+}
+
+/* ************************************************************************* */
+/* Banner                                                                    */   
+/* ************************************************************************* */
+
+#banner{
+    height:300px;
+}
+
+#banner img{
+    width:100%;
+    height:300px;
+}
+
+/* ************************************************************************* */
+/* Page                                                                      */   
+/* ************************************************************************* */
+
+#page{
+    min-height: 400px;
+    padding:20px;
+}
+
+#page h2{
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+}
+
+/* CONTENT */
+
+#content{
+    float: left;
+    width:70%;
+}
+
+#content h1{
+    color:white;
+}
+
+#content h2{
+    font-family:'Segoe UI',  'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+/* SIDEBAR */
+
+#sidebar{
+    float:right;
+    width:25%;
+}
+
+#sidebar h2{
+    color:rgb(30, 223, 4);
+}
+/* Lists */
+
+ul.styled{
+    margin:0;
+    padding:0;
+    list-style-type:none ;
+}
+
+ul.styled li{
+    border-top: solid 1px #e5e5e5;
+    padding:14px 0px;
+}
+
+ul.styled2 li {
+    border-top: solid .1px #e90b0b;
+    list-style-type: none;
+}
+
+/* ************************************************************************* */
+/* Footer                                                                    */   
+/* ************************************************************************* */
+
+#footer{
+    width: 100%;
+    height:340px;
+    background-color: #1a18189d;
+    padding-top:25px;
+    padding-left: 22px;
+    clear: both;
+}
+
+#footer h2{
+    font-size:18px;
+    font-weight:400;
+    text-transform:uppercase;
+    color:#04ff04;
+}
+
+#footer p{
+    color:white;
+}
+
+#foooter a{
+    color:white;
+}
+
+#box1{
+    float:left;
+    width:30%;
+    padding-right:30px;
+}
+
+#box2{
+    float:left;
+    width:30%;
+    padding-right:30px;
+}
+
+#box3{
+    float:right;
+    width:30%;
+    padding-left:30px;
+}
+
+/* ************************************************************************* */
+/* Copyright                                                                 */   
+/* ************************************************************************* */
+
+#copyright{
+    width:130%;
+    height:130px;
+    text-align:center;
+    background-color:rgb(240, 34, 34);
+    padding-top:55px;
+    clear:both;
+}
+#copyright p{
+    font-size:12px;
+    letter-spacing:0.1em;
+    text-transform:uppercase;
+    color:white;
+}
+
+/* ************************************************************************* */
+/* GALLERY                                                                   */   
+/* ************************************************************************* */
+
+#gallery img{
+    width:120px;
+    margin:15px;
+    -moz-transition: -moz-transform 0.5s ease-in;
+	-webkit-transition: -webkit-transform 0.5s ease-in;
+	-o-transition: -o-transform 0.5s ease-in;
+}
+
+#gallery img:hover{
+	-moz-transform: scale(3);
+	-webkit-transform: scale(3);
+	-o-transform: scale(3);
+ }
+
+ /* CAR LISTS */
+
+ #carlist {
+    columns: 4;
+    grid-row: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
